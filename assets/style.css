@@ -1,0 +1,154 @@
+body {
+    font-family: Tahoma,sans-serif,Helvetica,Arial;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #ebebeb;
+}
+
+a {
+    text-decoration: none;
+}
+
+img.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.app {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.app {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.app {
+    width: 750px;
+    min-height: 400px;
+}
+
+.app .recommend_comic {
+    padding-right: 30px;
+}
+
+.page-title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2980b9;
+}
+
+#div-center {
+    width: 66.66666667%;
+    float: left;
+}
+
+#div-right {
+    width: 33.33333333%;
+    float: left;
+}
+
+.box-tab {
+    padding: 0;
+    border: none;
+}
+
+.box-tab ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.box-tab>ul li {
+    float: left;
+    list-style: none;
+    width: 33%;
+    height: 42px;
+    padding: 10px 0;
+}
+
+.box-tab .tab-pane ul li {
+    border-bottom: 1px solid #EAEAEA;
+    border-top: none;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.box-tab .tab-pane ul li .txt-rank {
+    float: left;
+    width: 40px;
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    color: #3b3b3b;
+    font-size: 18px;
+}
+
+.box-tab .tab-pane ul li .txt-rank .pos1 {
+    color: #3498db!important;
+    font-size: 20px;
+}
+
+.box-tab .tab-pane ul li .t-item {
+    float: left;
+    width: calc(100% - 40px);
+    margin-bottom: 10px;
+    /* border-bottom: solid rgba(189, 163, 163, 0.6) 0.5px; */
+}
+
+.box-tab .tab-pane ul li h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.box-tab .tab-pane ul li .thumb {
+    width: 55px;
+    height: 45px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.box-tab .tab-pane ul li .thumb img {
+    width: 100%;
+}
+
+.box-tab .tab-pane ul li .chapter.top {
+    padding-top: 5px;
+    margin: 0;
+}
+
+.box-tab ul li .chapter .view {
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+    color: #666;
+}
+
+.chapter a {
+    font-size: 13px;
+    color: black;
+}
