@@ -5,7 +5,159 @@ body {
     background-color: #ebebeb;
     margin: 0;
     bottom: 0;
+    overflow-x: hidden;
 }
+
+header {
+    background: url(https://st.nettruyenup.com/Data/Sites/1/skins/comic/images/bg_header_2017.jpg) top center repeat-x;
+    width: 100%;
+    height: 50px;
+    -moz-transition: top .3s ease-in-out;
+    -ms-transition: top .3s ease-in-out;
+    -o-transition: top .3s ease-in-out;
+    transition: top .3s ease-in-out;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1030px;  
+    height: 100%;
+    margin: auto;
+}
+
+.navbar img {
+    margin-left: -50px;
+}
+
+.navbar .search-box {
+    display: inline-block;
+    position: relative;
+}
+.navbar .search-box input {
+    padding: 15px;
+    width: 440px;
+    border: none;
+    margin: 5px 0;
+    height: 5px;
+}
+
+.navbar .search-box input:focus {
+    outline: none;
+}
+
+.navbar .search-box button {
+    position: absolute;
+    top: 15px;
+    left: auto; 
+    right: 10px;
+    border: none;
+}
+
+.icon-group {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.toggle-dark {
+    color: #ff9601;
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 26px !important;
+    cursor: pointer;
+    position: relative;
+}
+
+.notifications {
+    padding: 12px 0 0 15px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 26px !important;
+    color: white;
+}
+
+.sign-group {
+    color: white;
+}
+
+.sign-group a {
+    color: white;
+}
+
+.inner {
+    background-color: #f5dcdc;
+
+}
+
+.main-menu {
+    width: 100%;
+}
+
+.main-nav {
+    z-index: 1000; 
+    position: relative; 
+    top: 0px;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0 -50px;
+}
+
+.navbar-nav>li {
+    float: left;
+    border-right: solid 1px #ddd;
+    display: block;
+    position: relative;
+    list-style: none;
+    padding: 15px;
+}
+
+.navbar-nav>li a {
+    color: black;
+}
+
+.navbar-nav>li.active {
+    color: #ae4ad9;
+    background-color: white;
+}
+
+ul.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 600px;
+    z-index: 999;
+    left: 0px;
+    margin-top: 20px;
+}
+
+ul.dropdown-content li {
+    list-style-type: none;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+ul.dropdown-content ul>li {
+    font-family: Tahoma,sans-serif,Helvetica,Arial;
+}
+
+li:hover {
+    background-color: #fff !important;
+}
+li:hover>a {
+    color: #ae4ad9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 a {
     text-decoration: none;
@@ -46,7 +198,7 @@ img.center {
     background-color: #f9f9f9;
 }
 
-.app {
+.app, .container {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
