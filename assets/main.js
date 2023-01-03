@@ -1,9 +1,10 @@
 document.onreadystatechange = function () {
     if (document.readyState == "interactive") {
         setSlide();
-        setFixedNav();
+        window.onscroll = setFixedNav;
     }
 }
+
 
 const setSlide = () => {
     var currentPos = 0;
@@ -21,12 +22,10 @@ const setSlide = () => {
 }
 
 const setFixedNav = () => {
-    setInterval(() => {
-        var navdom = document.getElementsByClassName("main-nav")[0]
-        if (window.scrollY > 56) {
-            navdom.setAttribute("style", "position: fixed; z-index: 1000; top: 0px; margin-left: 0px; width: 100%; left: 0px;");
-        } else {
-            navdom.setAttribute("style", "")
-        }
-    }, 1)
+    var navdom = document.getElementsByClassName("main-nav")[0]
+    if (window.scrollY > 56) {
+        navdom.setAttribute("style", "position: fixed; z-index: 1000; top: 0px; margin-left: 0px; width: 100%; left: 0px;");
+    } else {
+        navdom.setAttribute("style", "")
+    }
 }
