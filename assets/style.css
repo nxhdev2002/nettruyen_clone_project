@@ -676,4 +676,25 @@ footer .keyword ul li a {
     width: 100%;
 }
 
+.bigbutt {
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(204,206,217, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bigbutt.prev-button {
+    top: 40%;
+    left: 20px;
+}
+
+.bigbutt.next-button {
+    top: 40%;
+    right: 20px;
+}
+
+
+
 
