@@ -204,3 +204,14 @@ img{
     padding: 6px 0;
     margin: 0;
 }
+
+a.follow-hidden.btn.btn-success:hover{
+    background-color: #478f47;
+    text-decoration: none;
+    color: #ddd;
+}
+a.btn.btn-warning.mrb5:hover{
+    background-color: #ca9141;
+    text-decoration: none;
+    color: #ddd;
+}   
