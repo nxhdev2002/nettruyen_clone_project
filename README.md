@@ -29,11 +29,11 @@ danh sách thành viên:
   - Hoàng Minh Vũ - MSSV: 228365
      + Trang đọc truyện 
   
-  - Doãn Tùng Lâm
+  - Doãn Tùng Lâm - MSSV: 113165
     + Trang đăng ký 
     + Trang giới thiệu truyện
     
-  - Nguyễn Xuân Hoàng (nhóm trưởng):
+  - Nguyễn Xuân Hoàng (nhóm trưởng) - MSSV: 1521365
     + Trang đọc truyện
     + Trang chủ
     + Trang đăng nhập
@@ -41,3 +41,7 @@ danh sách thành viên:
     + JS (Tất cả các trang)
 
   
+
+- WEB Chính: https://www.nettruyenup.com/
+- Demo web clone: https://nettruyen-clone-project.vercel.app/
+- Link Github Project: https://github.com/nxhdev2002/nettruyen_clone_project/
