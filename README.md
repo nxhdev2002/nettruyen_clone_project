@@ -28,13 +28,12 @@ danh sách thành viên:
     
   - Hoàng Minh Vũ - MSSV: 228365
      + Trang đọc truyện 
-  
+     + Style mucluc  
   - Doãn Tùng Lâm - MSSV: 113165
     + Trang đăng ký 
     + Trang giới thiệu truyện
     
   - Nguyễn Xuân Hoàng (nhóm trưởng) - MSSV: 1521365
-    + Trang đọc truyện
     + Trang chủ
     + Trang đăng nhập
     + Header - Footer (Tất cả các trang)
